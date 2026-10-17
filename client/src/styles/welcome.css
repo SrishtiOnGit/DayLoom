@@ -1,0 +1,83 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.logo {
+  font-family: var(--display);
+  font-size: 3rem;
+  color: var(--dayloom);
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.description {
+  font-family: var(--body);
+  font-size: 1.5rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: var(--display);
+  font-size: 3rem;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.descritption-2 {
+  font-family: var(--body);
+  font-size: 1.5rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.btn {
+  font-family: var(--body);
+  font-size: 1.5rem;
+  color: var(--surface);
+  background-color: var(--dayloom);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 350px;
+}
+
+.btn:hover {
+  background-color: var(--dayloom-hover);
+  transform: scale(1.05);
+}
+
+.footer {
+  font-family: var(--body);
+  font-size: 1rem;
+  color: var(--muted);
+  margin-top: 8rem;
+}
+.welcome-cont {
+  flex: 1;
+  border: 4px solid var(--dayloom);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

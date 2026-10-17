@@ -1,1 +1,14 @@
-@import "tailwindcss";
+:root {
+  --paper: #f5f1e8;
+  --surface: #ffffff;
+  --ink: #343d35;
+  --muted: #73796f;
+  --dayloom: #788873;
+  --dayloom-hover: #626f5e;
+  --border: #e4dfd3;
+  --sage: #dde5d5;
+  --sand: #e8dcc8;
+
+  --display: "Playfair Display", Georgia, serif;
+  --body: "Inter", Arial, sans-serif;
+}
